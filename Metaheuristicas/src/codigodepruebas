@@ -1,0 +1,17 @@
+/*while(improve_flags==true && steps<50000){
+    improve_flags=false;
+    v=MejorVecino(v);
+
+    steps++;
+
+}
+*/
+
+    printf("PERMUTACIÓN BL \n");
+  for(int i=0;i<tam;i++){
+    printf("%d,",v[i]+1);//+1 para comprobar con el formato de la web https://mh2223.danimolina.net/testsol.html
+  }
+
+  value=vcoste;
+  printf(" \n");
+  printf("Con el siguiente coste final:%f \n",value);
